@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <!-- Banner -->
 <p align="center">
   <img src="https://pbs.twimg.com/profile_banners/1303597641922760704/1707335634/1500x500" alt="Korikosmos Banner" width="100%" />
@@ -10,13 +8,14 @@
   <img src="https://komarev.com/ghpvc/?username=KoriKosmos&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
 </p>
 
-
 <!-- Intro -->
 # Hey, I'm Maan 👋
 
 🎓 MSci Computer Science @ Royal Holloway  
 🎮 Gamer, coder, and tinkerer of AI, game dev, and self-hosted experiments  
 🌐 Building at [korikosmos.dev](https://korikosmos.dev)  
+
+[![wakatime](https://wakatime.com/badge/user/ba10a0a4-b5ff-4065-aaa5-daf4a8e9d49f.svg)](https://wakatime.com/@KoriKosmos)
 
 ---
 
@@ -44,16 +43,23 @@ Coming soon...
 
 ## 🛠 Tech & Tools
 <p align="center">
-  <img src="https://img.shields.io/badge/Code-Python-blue?logo=python" />
-  <img src="https://img.shields.io/badge/Code-Java-red?logo=java" />
-  <img src="https://img.shields.io/badge/Code-C++-00599C?logo=c%2B%2B" />
-  <img src="https://img.shields.io/badge/Code-SQL-003B57?logo=postgresql" />
-  <img src="https://img.shields.io/badge/Tools-Docker-2496ED?logo=docker" />
-  <img src="https://img.shields.io/badge/Tools-Linux-FCC624?logo=linux" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,java,cpp,postgres,docker,linux,git,html,css,js,react,nodejs" />
+  </a>
 </p>
 
 ---
 
-<p align="center">
-  <sub>💡 Powered by a lot of Monster, curiosity, and a bit of chaos.</sub>
-</p>
+## 🐍 Contribution Snake
+![GitHub Snake Light](https://github.com/KoriKosmos/KoriKosmos/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+![GitHub Snake Dark](https://github.com/KoriKosmos/KoriKosmos/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+
+---
+
+## 💻 Now
+```bash
+$ whoami
+Maan (KoriKosmos)
+
+$ now
+Coding, gaming, or tinkering with AI

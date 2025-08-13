@@ -15,7 +15,9 @@
 🎮 Gamer, coder, and tinkerer of AI, game dev, and self-hosted experiments  
 🌐 Building at [korikosmos.dev](https://korikosmos.dev)  
 
-[![wakatime](https://wakatime.com/badge/user/ba10a0a4-b5ff-4065-aaa5-daf4a8e9d49f.svg)](https://wakatime.com/@KoriKosmos)
+## ⏱ Wakatime Stats
+![Wakatime Stats](https://wakatime.com/share/@KoriKosmos/5b62a6b6-2dc0-4508-bedd-e8c9fe985df6.svg)
+
 
 ---
 

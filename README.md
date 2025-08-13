@@ -15,8 +15,7 @@
 🎮 Gamer, coder, and tinkerer of AI, game dev, and self-hosted experiments  
 🌐 Building at [korikosmos.dev](https://korikosmos.dev)  
 
-## ⏱ Wakatime Stats
-![Wakatime Stats](https://wakatime.com/share/@KoriKosmos/5b62a6b6-2dc0-4508-bedd-e8c9fe985df6.svg)
+
 
 
 ---
@@ -58,10 +57,15 @@ Coming soon...
 
 ---
 
+## ⏱ Wakatime Stats
+![Wakatime Stats](https://wakatime.com/share/@KoriKosmos/5b62a6b6-2dc0-4508-bedd-e8c9fe985df6.svg)
+
+---
+
 ## 💻 Now
 ```bash
 $ whoami
 Maan (KoriKosmos)
 
 $ now
-Coding, gaming, or tinkering with AI
+Probably drinking a Monster

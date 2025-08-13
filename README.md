@@ -5,6 +5,12 @@
   <img src="https://pbs.twimg.com/profile_banners/1303597641922760704/1707335634/1500x500" alt="Korikosmos Banner" width="100%" />
 </p>
 
+<!-- Views -->
+<p align="right">
+  <img src="https://komarev.com/ghpvc/?username=KoriKosmos&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+</p>
+
+
 <!-- Intro -->
 # Hey, I'm Maan 👋
 

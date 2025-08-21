@@ -52,7 +52,7 @@ Coming soon...
 ---
 
 ## 🐍 Contribution Snake
-![GitHub Snake Light](https://raw.githubusercontent.com/KoriKosmos/KoriKosmos/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+![GitHub Snake Light](https://raw.githubusercontent.com/KoriKosmos/KoriKosmos/output/github-contribution-grid-snake.svg)
 ![GitHub Snake Dark](https://raw.githubusercontent.com/KoriKosmos/KoriKosmos/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
 ---

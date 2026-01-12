@@ -10,7 +10,21 @@
 
 <!-- Intro -->
 
-# Hey, I'm Maan 👋
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0E75B6&center=true&vCenter=true&width=435&lines=Hey%2C+I'm+Maan+%F0%9F%91%8B;MSci+Computer+Science;Gamer+%2C+Coder+%26+Tinkerer;Building+KoriKosmos" alt="Typing SVG" />
+</h1>
+
+<p align="center">
+  <a href="https://github.com/KoriKosmos">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://twitter.com/KoriKosmos">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+  </a>
+  <a href="https://korikosmos.dev">
+    <img src="https://img.shields.io/badge/Website-0e75b6?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  </a>
+</p>
 
 🎓 MSci Computer Science @ Royal Holloway  
 🎮 Gamer, coder, and tinkerer of AI, game dev, and self-hosted experiments  
@@ -20,10 +34,13 @@
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats-blush-nu-58.vercel.app/api?username=KoriKosmos&show_icons=true&theme=tokyonight&hide_border=true" alt="Maan's GitHub stats" height="150"/>
-  <img src="https://github-readme-stats-blush-nu-58.vercel.app/api/top-langs/?username=KoriKosmos&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" height="150"/>
-</p>
+<div align="center">
+
+|                                                                            📊 **GitHub Stats**                                                                            |                                                                                  🏆 **Top Languages**                                                                                   |                                                                🔥 **Streak Stats**                                                                |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://github-readme-stats-blush-nu-58.vercel.app/api?username=KoriKosmos&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="stats graph" /> | <img src="https://github-readme-stats-blush-nu-58.vercel.app/api/top-langs/?username=KoriKosmos&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="languages graph" /> | <img src="https://github-readme-streak-stats.herokuapp.com/?user=KoriKosmos&theme=tokyonight&hide_border=true" height="150" alt="streak graph" /> |
+
+</div>
 
 ---
 

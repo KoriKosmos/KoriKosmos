@@ -27,7 +27,7 @@
 </p>
 
 🎓 MSci Computer Science @ Royal Holloway  
-🎮 Gamer, coder, and self-hosting enthusiast. I enjoy thoughtful storytelling, building tools, and making systems work better.
+🎮 Gamer, coder, and self-hosting enthusiast. I enjoy thoughtful storytelling, building tools, and making systems work better.  
 🌐 Building at [korikosmos.dev](https://korikosmos.dev)
 
 ---

@@ -27,7 +27,7 @@
 </p>
 
 🎓 MSci Computer Science @ Royal Holloway  
-🎮 Gamer, coder, and tinkerer of AI, game dev, and self-hosted experiments  
+🎮 Gamer, coder, and self-hosting enthusiast. I enjoy thoughtful storytelling, building tools, and making systems work better.
 🌐 Building at [korikosmos.dev](https://korikosmos.dev)
 
 ---
@@ -65,8 +65,19 @@ Coming soon...
 ## 🛠 Tech & Tools
 
 <p align="center">
+  <b>Languages</b><br>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,java,cpp,postgres,docker,linux,git,html,css,js,react,nodejs" />
+    <img src="https://skillicons.dev/icons?i=python,java,cpp,js" />
+  </a>
+  <br><br>
+  <b>Frontend</b><br>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,react" />
+  </a>
+  <br><br>
+  <b>Backend & Infrastructure</b><br>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nodejs,postgres,docker,linux,git" />
   </a>
 </p>
 

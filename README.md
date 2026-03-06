@@ -42,6 +42,12 @@
 
 </div>
 
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://trophy.ryglcloud.net/?username=KoriKosmos&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="KoriKosmos GitHub Trophies" />
+  </a>
+</p>
+
 ---
 
 ## 🎵 Recently Played
@@ -56,7 +62,8 @@
 
 <!-- BLOG-POST-LIST:START -->
 
-Coming soon...
+- [Testing!](https://korikosmos.dev/blog/testing/)
+- [Hello World](https://korikosmos.dev/blog/hello-world/)
 
 <!-- BLOG-POST-LIST:END -->
 
@@ -93,6 +100,14 @@ Coming soon...
 ## ⏱ Wakatime Stats
 
 ![Wakatime Stats](https://wakatime.com/share/@KoriKosmos/5b62a6b6-2dc0-4508-bedd-e8c9fe985df6.svg)
+
+---
+
+## ⚡ Random Dev Quote
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+</p>
 
 ---
 

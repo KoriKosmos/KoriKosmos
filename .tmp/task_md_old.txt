@@ -1,0 +1,8 @@
+- [ ] Create implementation plan and identify neat new features
+- [ ] Get user approval on the plan
+- [ ] Implement selected features
+  - [ ] Add new gimmick 1
+  - [ ] Add new gimmick 2
+  - [ ] Add new gimmick 3
+- [ ] Format and visually align the README
+- [ ] Verify formatting and appearance

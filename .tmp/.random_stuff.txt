@@ -1,0 +1,2 @@
+- [ ] Create `.github/workflows/blog-post-workflow.yml`
+- [ ] Update documentation

@@ -1,0 +1,83 @@
+name: Update heart rate card
+
+on:
+  schedule:
+    - cron: "*/5 * * * *" # GitHub's minimum; runs may be delayed under load
+  workflow_dispatch:
+
+permissions:
+  contents: write # required to push to the heartrate branch
+
+concurrency:
+  group: heartrate
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch latest heart rate and render SVG
+        env:
+          PULSOID_TOKEN: ${{ secrets.PULSOID_TOKEN }}
+        run: |
+          mkdir -p dist
+          python3 - <<'EOF'
+          import json, os, time, urllib.request
+
+          bpm, measured_at = None, None
+          try:
+              req = urllib.request.Request(
+                  "https://dev.pulsoid.net/api/v1/data/heart_rate/latest",
+                  headers={"Authorization": f"Bearer {os.environ['PULSOID_TOKEN']}"},
+              )
+              with urllib.request.urlopen(req, timeout=15) as r:
+                  body = json.load(r)
+              bpm = int(body["data"]["heart_rate"])
+              measured_at = body["measured_at"] / 1000
+          except Exception as e:
+              print(f"Pulsoid fetch failed: {e}")
+
+          age = time.time() - measured_at if measured_at else None
+          live = age is not None and age < 10 * 60
+
+          if bpm is None:
+              value, status, color = "--", "no data", "#565f89"
+          elif live:
+              value, status, color = str(bpm), "live", "#f7768e"
+          else:
+              mins = int(age // 60)
+              ago = f"{mins}m" if mins < 60 else f"{mins // 60}h" if mins < 1440 else f"{mins // 1440}d"
+              value, status, color = str(bpm), f"last seen {ago} ago", "#565f89"
+
+          pulse = (
+              '<animateTransform attributeName="transform" type="scale" '
+              'values="1;1.18;1;1.1;1" dur="0.9s" repeatCount="indefinite" additive="sum"/>'
+              if live else ""
+          )
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="260" height="72" viewBox="0 0 260 72" role="img" aria-label="Heart rate: {value} BPM ({status})">
+            <rect width="260" height="72" rx="10" fill="#1a1b27"/>
+            <g transform="translate(40 36)">
+              <g>
+                <path transform="translate(-14 -13)" fill="{color}" d="M14 26 L2.3 14.3 A7 7 0 0 1 14 4.6 A7 7 0 0 1 25.7 14.3 Z"/>
+                {pulse}
+              </g>
+            </g>
+            <text x="72" y="40" font-family="Fira Code, monospace" font-size="28" font-weight="700" fill="#c0caf5">{value}<tspan font-size="14" fill="#a9b1d6" dx="6">BPM</tspan></text>
+            <text x="72" y="58" font-family="Fira Code, monospace" font-size="11" fill="#70a5fd">{status}</text>
+          </svg>
+          '''
+          with open("dist/heartrate.svg", "w") as f:
+              f.write(svg)
+          print(f"bpm={bpm} status={status}")
+          EOF
+
+      - name: Publish to heartrate branch
+        run: |
+          cd dist
+          git init -q -b heartrate
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add heartrate.svg
+          git commit -q -m "Update heart rate card"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" heartrate

@@ -58,6 +58,18 @@
 
 ---
 
+## ❤️ Heart Rate
+
+<p align="center">
+  <a href="https://pulsoid.net/widget/view/korikosmos">
+    <img src="https://raw.githubusercontent.com/KoriKosmos/KoriKosmos/heartrate/heartrate.svg" alt="Current heart rate (click for live widget)" />
+  </a>
+  <br>
+  <sub><a href="https://pulsoid.net/widget/view/korikosmos">Live widget</a> · card refreshes every few minutes via Pulsoid</sub>
+</p>
+
+---
+
 ## 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->

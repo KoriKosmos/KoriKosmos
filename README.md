@@ -73,6 +73,7 @@
 ## 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Mandy mode: borrowing design from my favourite person](https://korikosmos.dev/blog/mandy-mode/)
 - [Rebuilding korikosmos.dev: React Islands and Keystatic](https://korikosmos.dev/blog/rebuilding-react-islands/)
 - [Testing!](https://korikosmos.dev/blog/testing/)
 - [Hello World](https://korikosmos.dev/blog/hello-world/)

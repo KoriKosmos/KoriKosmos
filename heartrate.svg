@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="72" viewBox="0 0 260 72" role="img" aria-label="Heart rate: 74 BPM (live)">
+  <rect width="260" height="72" rx="10" fill="#1a1b27"/>
+  <g transform="translate(40 36)">
+    <g>
+      <path transform="translate(-14 -13)" fill="#f7768e" d="M14 26 L2.3 14.3 A7 7 0 0 1 14 4.6 A7 7 0 0 1 25.7 14.3 Z"/>
+      <animateTransform attributeName="transform" type="scale" values="1;1.18;1;1.1;1" dur="0.9s" repeatCount="indefinite" additive="sum"/>
+    </g>
+  </g>
+  <text x="72" y="40" font-family="Fira Code, monospace" font-size="28" font-weight="700" fill="#c0caf5">74<tspan font-size="14" fill="#a9b1d6" dx="6">BPM</tspan></text>
+  <text x="72" y="58" font-family="Fira Code, monospace" font-size="11" fill="#70a5fd">live</text>
+</svg>

@@ -73,10 +73,10 @@
 ## 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Raising a baby AI across four machines](https://korikosmos.dev/blog/raising-a-baby-ai/)
+- [Finishing Tetris: one flipped sign and a pure engine](https://korikosmos.dev/blog/finishing-tetris/)
 - [Mandy mode: borrowing design from my favourite person](https://korikosmos.dev/blog/mandy-mode/)
 - [Rebuilding korikosmos.dev: React Islands and Keystatic](https://korikosmos.dev/blog/rebuilding-react-islands/)
-- [Testing!](https://korikosmos.dev/blog/testing/)
-- [Hello World](https://korikosmos.dev/blog/hello-world/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
